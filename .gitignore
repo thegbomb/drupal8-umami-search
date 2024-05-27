@@ -84,7 +84,6 @@ files-private
 /drush
 /drupal.phar
 /drupal
-build
 
 # OS X
 .DS_Store

@@ -1,0 +1,13 @@
+uuid: 1907372e-0cd3-4b20-ac3d-ed7cf3cc4d93
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: wagY6aqmh9sRyBLXu4rByDMFUhO5tdJqNkyRNEnnucU
+id: media.square
+label: Square
+description: ''
+targetEntityType: media
+cache: true
