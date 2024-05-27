@@ -23,6 +23,9 @@ module:
   diff: 0
   dynamic_page_cache: 0
   editor: 0
+  facets: 0
+  facets_pretty_paths: 0
+  facets_range_widget: 0
   field: 0
   field_ui: 0
   file: 0
@@ -33,6 +36,8 @@ module:
   jquery_ui: 0
   jquery_ui_autocomplete: 0
   jquery_ui_menu: 0
+  jquery_ui_slider: 0
+  jquery_ui_touch_punch: 0
   language: 0
   layout_builder: 0
   layout_discovery: 0
@@ -52,11 +57,16 @@ module:
   responsive_image: 0
   sdc: 0
   search: 0
+  search_api: 0
+  search_api_autocomplete: 0
+  search_api_db: 0
+  search_api_sorts: 0
   serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tracer: 0
   update: 0
@@ -64,6 +74,7 @@ module:
   views_ui: 0
   webprofiler: 0
   workflows: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   demo_umami: 1000

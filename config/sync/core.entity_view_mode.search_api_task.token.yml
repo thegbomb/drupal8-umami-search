@@ -1,0 +1,11 @@
+uuid: 5fca8b38-ebeb-4a85-b881-270836a7dd15
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api
+id: search_api_task.token
+label: Token
+description: ''
+targetEntityType: search_api_task
+cache: true
