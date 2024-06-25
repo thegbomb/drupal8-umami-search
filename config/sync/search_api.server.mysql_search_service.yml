@@ -1,0 +1,18 @@
+uuid: 55e27290-5356-46ad-bbd3-83527b0c8d21
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: mysql_search_service
+name: 'Mysql Search Service'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  matching: words
+  phrase: bigram
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

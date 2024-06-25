@@ -1,0 +1,23 @@
+uuid: ad5c4298-fd20-4879-a311-a43cffa266d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - umami
+id: exposedformsearchpage_1
+theme: umami
+region: pre_header
+weight: -12
+provider: null
+plugin: 'views_exposed_filter_block:search-page_1'
+settings:
+  id: 'views_exposed_filter_block:search-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility: {  }

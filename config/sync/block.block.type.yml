@@ -1,0 +1,29 @@
+uuid: c76d5555-e55c-4c6c-9b3f-adc15e6f35e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.type
+  module:
+    - facets
+    - system
+  theme:
+    - umami
+id: type
+theme: umami
+region: sidebar
+weight: -9
+provider: null
+plugin: 'facet_block:type'
+settings:
+  id: 'facet_block:type'
+  label: Type
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: type
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /searches

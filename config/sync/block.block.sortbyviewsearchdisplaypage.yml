@@ -1,0 +1,25 @@
+uuid: b2f68090-fdd6-45e9-85ff-1775a7c95597
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_sorts
+    - system
+  theme:
+    - umami
+id: sortbyviewsearchdisplaypage
+theme: umami
+region: sidebar
+weight: -10
+provider: null
+plugin: 'search_api_sorts_block:views_page:search__page_1'
+settings:
+  id: 'search_api_sorts_block:views_page:search__page_1'
+  label: Sort
+  label_display: visible
+  provider: search_api_sorts
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /searches

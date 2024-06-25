@@ -1,0 +1,29 @@
+uuid: c1501369-060c-4a7b-9cb5-8fc164851240
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.recipe_category
+  module:
+    - facets
+    - system
+  theme:
+    - umami
+id: recipecategory
+theme: umami
+region: sidebar
+weight: -7
+provider: null
+plugin: 'facet_block:recipe_category'
+settings:
+  id: 'facet_block:recipe_category'
+  label: 'Recipe category'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: recipecategory
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /searches

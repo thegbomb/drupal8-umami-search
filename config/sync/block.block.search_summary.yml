@@ -1,0 +1,28 @@
+uuid: c1acbcf0-21b4-41dd-af88-68bf4cedec54
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets_summary.facets_summary.search_summary
+  module:
+    - facets_summary
+    - system
+  theme:
+    - umami
+id: search_summary
+theme: umami
+region: sidebar
+weight: -11
+provider: null
+plugin: 'facets_summary_block:search_summary'
+settings:
+  id: 'facets_summary_block:search_summary'
+  label: 'Current Search'
+  label_display: visible
+  provider: facets_summary
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /searches
