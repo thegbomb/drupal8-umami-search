@@ -53,3 +53,9 @@ facets:
     separator: ', '
     show_count: true
     weight: 0
+  language:
+    checked: true
+    label: Language
+    separator: ', '
+    show_count: true
+    weight: 0

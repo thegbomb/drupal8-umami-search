@@ -1,27 +1,27 @@
-uuid: d715b7a1-9f9d-4857-a0dd-f5af6ca05b33
+uuid: 6d1ae7d8-3df2-464b-b72f-1fbc9ffe0614
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.tags
+    - facets.facet.language
   module:
     - facets
     - system
   theme:
     - umami
-id: umami_tags
+id: umami_language
 theme: umami
 region: sidebar
-weight: -5
+weight: -10
 provider: null
-plugin: 'facet_block:tags'
+plugin: 'facet_block:language'
 settings:
-  id: 'facet_block:tags'
-  label: Tags
+  id: 'facet_block:language'
+  label: Language
   label_display: visible
   provider: facets
   context_mapping: {  }
-  block_id: umami_tags
+  block_id: umami_language
 visibility:
   request_path:
     id: request_path

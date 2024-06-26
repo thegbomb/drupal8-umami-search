@@ -10,7 +10,7 @@ dependencies:
 id: sortbyviewsearchdisplaypage
 theme: umami
 region: sidebar
-weight: -10
+weight: -12
 provider: null
 plugin: 'search_api_sorts_block:views_page:search__page_1'
 settings:
@@ -22,4 +22,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /searches
+    pages: /search

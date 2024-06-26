@@ -12,7 +12,7 @@ dependencies:
 id: difficulty
 theme: umami
 region: sidebar
-weight: -8
+weight: -9
 provider: null
 plugin: 'facet_block:difficulty'
 settings:
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /searches
+    pages: /search

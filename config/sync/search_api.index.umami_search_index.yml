@@ -8,8 +8,8 @@ dependencies:
     - field.storage.node.field_number_of_servings
     - field.storage.node.field_preparation_time
     - field.storage.node.field_recipe_category
-    - field.storage.node.field_tags
     - field.storage.node.field_recipe_instruction
+    - field.storage.node.field_tags
     - search_api.server.mysql_search_service
     - core.entity_view_mode.node.search_index
   module:
@@ -68,6 +68,10 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_tags
+  language_with_fallback:
+    label: 'Language (with fallback)'
+    property_path: language_with_fallback
+    type: string
   processed:
     label: 'Recipe instruction » Processed text'
     datasource_id: 'entity:node'
@@ -128,6 +132,7 @@ processor_settings:
     fields:
       - field_difficulty
       - field_ingredients
+      - language_with_fallback
       - processed
       - rendered_item
       - type
@@ -147,6 +152,7 @@ processor_settings:
     fields:
       - field_difficulty
       - field_ingredients
+      - language_with_fallback
       - processed
       - rendered_item
       - type
@@ -227,6 +233,7 @@ processor_settings:
     fields:
       - field_difficulty
       - field_ingredients
+      - language_with_fallback
       - processed
       - rendered_item
       - type
